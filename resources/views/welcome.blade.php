@@ -20,7 +20,7 @@
             {{-- Left: Text --}}
             <div>
                 <header class="mb-8">
-                    <p class="text-[#f59e0b] text-xs tracking-widest uppercase mb-4">Ana Tavares</p>
+                    <p class="text-[#f59e0b] text-xs tracking-widest uppercase mb-4">Hello, World</p>
                     <h1 class="text-4xl font-bold leading-snug text-[#f5f2ec]">
                         I build developer marketing strategies that drive real outcomes.
                     </h1>
