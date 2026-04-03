@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/how-i-think', function () {
+    return view('how-i-think');
+});
+
 Route::get('/portfolio', function () {
     return view('portfolio.index');
 });

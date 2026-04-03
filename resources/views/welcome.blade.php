@@ -32,7 +32,7 @@
                     <p>
                         Currently at Laravel,
                         <a href="https://www.laravel.com/blog" target="_blank" rel="noopener noreferrer" class="text-[#f59e0b] hover:text-[#fbbf24] transition-colors duration-150">running the blog</a>,
-                        building webpages, driving SEO, coordinating GTM, and kicking off the first user research initiative to put real developer language at the center of our messaging. Before that, I worked across the full spectrum of developer tools&mdash;from the aimed simplicity of no-code SaaS to the rewarding complexity of database platforms. That range sharpened my instincts for what resonates with technical audiences, wherever they sit.
+                        building webpages, driving SEO, coordinating GTM, and kicking off the first user research initiative to put real developer language at the center of our messaging. Before that, I worked across the full spectrum of developer tools, from the aimed simplicity of no-code SaaS to the rewarding complexity of database platforms. That range sharpened my instincts for what resonates with technical audiences, wherever they sit.
                     </p>
                     <p>
                         My background is in journalism and I hold a post-grad in Science Communication. I've led teams, but I'm happiest close to the work. I was also using em-dashes before ChatGPT was born.
