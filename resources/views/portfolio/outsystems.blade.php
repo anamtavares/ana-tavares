@@ -12,17 +12,17 @@
         </li>
         <li>
             <a href="https://www.outsystems.com/blog/posts/detecting-duplicate-code-in-vpl/" target="_blank" rel="noopener noreferrer" class="text-base text-zinc-300 hover:text-[#f59e0b] transition-colors duration-150">
-                Detecting duplicate code in VPL
+                Detecting Duplicate Code in VPL
             </a>
         </li>
         <li>
             <a href="https://www.outsystems.com/blog/posts/mental-health/" target="_blank" rel="noopener noreferrer" class="text-base text-zinc-300 hover:text-[#f59e0b] transition-colors duration-150">
-                Mental health
+                Mental Health
             </a>
         </li>
         <li>
             <a href="https://www.outsystems.com/blog/posts/a-talk-about-design-systems/" target="_blank" rel="noopener noreferrer" class="text-base text-zinc-300 hover:text-[#f59e0b] transition-colors duration-150">
-                A talk about design systems
+                A Talk About Design Systems
             </a>
         </li>
     </ul>

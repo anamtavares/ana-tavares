@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/portfolio', function () {
+    return view('portfolio.index');
+});
+
 Route::get('/portfolio/outsystems', function () {
     return view('portfolio.outsystems');
 });

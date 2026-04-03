@@ -9,9 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-[#0d0d0d] text-[#f5f2ec] min-h-screen flex items-center justify-center px-6 py-16 font-mono">
+<body class="bg-[#0d0d0d] text-[#f5f2ec] min-h-screen px-6 py-16 font-mono">
 
-    <div class="w-full max-w-5xl">
+    @include('partials.nav')
+
+    <div class="w-full max-w-5xl mx-auto">
 
         <main class="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-center">
 
@@ -63,22 +65,6 @@
             </div>
 
         </main>
-
-        {{-- Portfolio --}}
-        <section class="mt-24">
-            <p class="text-[#f59e0b] text-xs tracking-widest uppercase mb-8">Portfolio</p>
-            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                <a href="/portfolio/outsystems" class="group block bg-zinc-900 rounded-lg p-8 flex items-center justify-center transition duration-150 hover:brightness-125">
-                    <img src="{{ asset('images/outsystems-logo.svg') }}" alt="OutSystems" class="h-8 opacity-80 group-hover:opacity-100 transition-opacity duration-150">
-                </a>
-                <a href="/portfolio/tigerdata" class="group block bg-zinc-900 rounded-lg p-8 flex items-center justify-center transition duration-150 hover:brightness-125">
-                    <img src="{{ asset('images/tigerdata-logo.svg') }}" alt="TigerData" class="h-8 opacity-80 group-hover:opacity-100 transition-opacity duration-150">
-                </a>
-                <a href="/portfolio/laravel" class="group block bg-zinc-900 rounded-lg p-8 flex items-center justify-center transition duration-150 hover:brightness-125">
-                    <img src="{{ asset('images/laravel-logo.svg') }}" alt="Laravel" class="h-8 opacity-80 group-hover:opacity-100 transition-opacity duration-150">
-                </a>
-            </div>
-        </section>
 
     </div>
 

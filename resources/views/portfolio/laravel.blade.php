@@ -9,7 +9,7 @@
         <ul class="space-y-4">
             <li>
                 <a href="https://cloud.laravel.com/migration-vapor-cloud" target="_blank" rel="noopener noreferrer" class="text-base text-zinc-300 hover:text-[#f59e0b] transition-colors duration-150">
-                    Migration from Vapor to Cloud
+                    Migration From Vapor to Cloud
                 </a>
             </li>
             <li>
@@ -25,12 +25,12 @@
         <ul class="space-y-4">
             <li>
                 <a href="https://laravel.com/blog/pylesoft-cuts-infrastructure-costs-50-migrating-from-vapor-to-cloud" target="_blank" rel="noopener noreferrer" class="text-base text-zinc-300 hover:text-[#f59e0b] transition-colors duration-150">
-                    Pylesoft cuts infrastructure costs 50% migrating from Vapor to Cloud
+                    Pylesoft Cuts Infrastructure Costs 50% Migrating From Vapor to Cloud
                 </a>
             </li>
             <li>
                 <a href="https://laravel.com/blog/how-romega-cut-250-hours-of-devops-work-with-laravel-forge" target="_blank" rel="noopener noreferrer" class="text-base text-zinc-300 hover:text-[#f59e0b] transition-colors duration-150">
-                    How Romega cut 250 hours of DevOps work with Laravel Forge
+                    How Romega Cut 250 Hours of DevOps Work With Laravel Forge
                 </a>
             </li>
         </ul>
@@ -41,17 +41,17 @@
         <ul class="space-y-4">
             <li>
                 <a href="https://laravel.com/blog/laravel-ai-sdk-building-production-safe-database-tools-for-agents" target="_blank" rel="noopener noreferrer" class="text-base text-zinc-300 hover:text-[#f59e0b] transition-colors duration-150">
-                    Laravel AI SDK: Building production-safe database tools for agents
+                    Laravel AI SDK: Building Production-Safe Database Tools for Agents
                 </a>
             </li>
             <li>
                 <a href="https://laravel.com/blog/laravel-cloud-api-and-cli-ship-faster-automate-more" target="_blank" rel="noopener noreferrer" class="text-base text-zinc-300 hover:text-[#f59e0b] transition-colors duration-150">
-                    Laravel Cloud API and CLI: Ship faster, automate more
+                    Laravel Cloud API and CLI: Ship Faster, Automate More
                 </a>
             </li>
             <li>
                 <a href="https://laravel.com/blog/laravel-ai-sdk-boost-or-mcp-which-tool-do-you-need" target="_blank" rel="noopener noreferrer" class="text-base text-zinc-300 hover:text-[#f59e0b] transition-colors duration-150">
-                    Laravel AI SDK: Boost or MCP -- which tool do you need?
+                    Laravel AI SDK: Boost or MCP -- Which Tool Do You Need?
                 </a>
             </li>
         </ul>
