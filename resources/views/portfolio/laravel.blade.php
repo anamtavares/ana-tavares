@@ -7,8 +7,8 @@
 @section('jsonld')
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
+        "@@context": "https://schema.org",
+        "@@type": "WebPage",
         "name": "Laravel - Ana Tavares",
         "description": "Doubled organic clicks from 49K to 104K in 6 months. Content strategy and SEO results at Laravel.",
         "url": "{{ url()->current() }}"

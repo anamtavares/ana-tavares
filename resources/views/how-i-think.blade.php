@@ -6,8 +6,8 @@
 @section('jsonld')
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
+        "@@context": "https://schema.org",
+        "@@type": "WebPage",
         "name": "How I think",
         "description": "My approach to developer marketing: user-centric, outcome-driven, and grounded in what developers actually need.",
         "url": "{{ url()->current() }}"

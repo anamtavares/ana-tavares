@@ -7,8 +7,8 @@
 @section('jsonld')
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
+        "@@context": "https://schema.org",
+        "@@type": "WebPage",
         "name": "OutSystems - Ana Tavares",
         "description": "Developer content and engineering blog work at OutSystems.",
         "url": "{{ url()->current() }}"

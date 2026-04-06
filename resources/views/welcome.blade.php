@@ -6,13 +6,13 @@
 @section('jsonld')
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "Person",
+        "@@context": "https://schema.org",
+        "@@type": "Person",
         "name": "Ana Tavares",
         "url": "https://anamargaridatavares.com",
         "jobTitle": "Developer Marketing Strategist",
         "worksFor": {
-            "@type": "Organization",
+            "@@type": "Organization",
             "name": "Laravel"
         },
         "sameAs": [

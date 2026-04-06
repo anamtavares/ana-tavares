@@ -6,8 +6,8 @@
 @section('jsonld')
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
+        "@@context": "https://schema.org",
+        "@@type": "WebPage",
         "name": "Portfolio",
         "description": "Case studies from my work at Laravel, OutSystems, and TigerData, showing measurable marketing results for developer tools.",
         "url": "{{ url()->current() }}"

@@ -22,9 +22,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     {{-- JSON-LD structured data --}}
-    @hasSection('jsonld')
-        @yield('jsonld')
-    @endif
+    @yield('jsonld')
 </head>
 <body class="bg-[#0d0d0d] text-[#f5f2ec] min-h-screen px-6 py-16 font-mono">
 
@@ -32,13 +30,11 @@
 
     @yield('body')
 
-    @hasSection('footer')
-        @yield('footer')
-    @else
+    @section('footer')
         <footer class="text-center text-zinc-700 text-xs py-12 font-mono tracking-widest">
             &copy; {{ date('Y') }} Ana Tavares
         </footer>
-    @endif
+    @show
 
 </body>
 </html>

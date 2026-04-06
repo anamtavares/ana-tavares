@@ -7,8 +7,8 @@
 @section('jsonld')
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
+        "@@context": "https://schema.org",
+        "@@type": "WebPage",
         "name": "TigerData - Ana Tavares",
         "description": "Created the Learn PostgreSQL section generating 6M+ impressions. Content marketing results at TigerData.",
         "url": "{{ url()->current() }}"
