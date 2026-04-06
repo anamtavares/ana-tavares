@@ -1,7 +1,20 @@
 @extends('portfolio.layout', ['logo' => 'laravel-logo.svg'])
 
-@section('title', 'Laravel')
+@section('title', 'Laravel - Ana Tavares')
+@section('meta_description', 'Doubled organic clicks from 49K to 104K in 6 months. Content strategy and SEO results at Laravel.')
 @section('company', 'Laravel')
+
+@section('jsonld')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Laravel - Ana Tavares",
+        "description": "Doubled organic clicks from 49K to 104K in 6 months. Content strategy and SEO results at Laravel.",
+        "url": "{{ url()->current() }}"
+    }
+    </script>
+@endsection
 
 @section('content')
     <div class="mb-10">

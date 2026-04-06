@@ -1,7 +1,20 @@
 @extends('portfolio.layout', ['logo' => 'outsystems-logo.svg'])
 
-@section('title', 'OutSystems')
+@section('title', 'OutSystems - Ana Tavares')
+@section('meta_description', 'Developer content and engineering blog work at OutSystems.')
 @section('company', 'OutSystems')
+
+@section('jsonld')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "OutSystems - Ana Tavares",
+        "description": "Developer content and engineering blog work at OutSystems.",
+        "url": "{{ url()->current() }}"
+    }
+    </script>
+@endsection
 
 @section('content')
     <ul class="space-y-4">

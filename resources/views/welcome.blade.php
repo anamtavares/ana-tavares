@@ -1,18 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ana Tavares</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-</head>
-<body class="bg-[#0d0d0d] text-[#f5f2ec] min-h-screen px-6 py-16 font-mono">
+@extends('layouts.app')
 
-    @include('partials.nav')
+@section('title', 'Ana Tavares - Developer marketing strategist')
+@section('meta_description', 'I build developer marketing strategies that drive real outcomes. Currently at Laravel, driving SEO, content, and GTM across the platform.')
 
+@section('jsonld')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ana Tavares",
+        "url": "https://anamargaridatavares.com",
+        "jobTitle": "Developer Marketing Strategist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Laravel"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/in/ana-margarida-tavares-b1228411/"
+        ],
+        "image": "https://anamargaridatavares.com/images/ana-profile.jpg",
+        "description": "Developer marketing strategist building strategies that drive real outcomes. Currently at Laravel, driving SEO, content, and GTM across the platform."
+    }
+    </script>
+@endsection
+
+@section('body')
     <div class="w-full max-w-5xl mx-auto">
 
         <main class="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-center">
@@ -67,10 +79,10 @@
         </main>
 
     </div>
+@endsection
 
+@section('footer')
     <footer class="fixed bottom-0 left-0 right-0 text-center text-zinc-700 text-xs py-4 font-mono tracking-widest">
         &copy; {{ date('Y') }} Ana Tavares
     </footer>
-
-</body>
-</html>
+@endsection

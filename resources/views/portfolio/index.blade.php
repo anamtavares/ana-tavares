@@ -1,18 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Ana Tavares</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-</head>
-<body class="bg-[#0d0d0d] text-[#f5f2ec] min-h-screen px-6 py-16 font-mono">
+@extends('layouts.app')
 
-    @include('partials.nav')
+@section('title', 'Portfolio - Ana Tavares')
+@section('meta_description', 'Case studies from my work at Laravel, OutSystems, and TigerData, showing measurable marketing results for developer tools.')
 
+@section('jsonld')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Portfolio",
+        "description": "Case studies from my work at Laravel, OutSystems, and TigerData, showing measurable marketing results for developer tools.",
+        "url": "{{ url()->current() }}"
+    }
+    </script>
+@endsection
+
+@section('body')
     <main class="w-full max-w-5xl mx-auto">
         <p class="text-[#f59e0b] text-xs tracking-widest uppercase mb-8">Portfolio</p>
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
@@ -27,10 +30,4 @@
             </a>
         </div>
     </main>
-
-    <footer class="text-center text-zinc-700 text-xs py-12 font-mono tracking-widest">
-        &copy; {{ date('Y') }} Ana Tavares
-    </footer>
-
-</body>
-</html>
+@endsection

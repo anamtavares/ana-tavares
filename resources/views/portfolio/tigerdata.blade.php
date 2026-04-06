@@ -1,7 +1,20 @@
 @extends('portfolio.layout', ['logo' => 'tigerdata-logo.svg'])
 
-@section('title', 'TigerData')
+@section('title', 'TigerData - Ana Tavares')
+@section('meta_description', 'Created the Learn PostgreSQL section generating 6M+ impressions. Content marketing results at TigerData.')
 @section('company', 'TigerData')
+
+@section('jsonld')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "TigerData - Ana Tavares",
+        "description": "Created the Learn PostgreSQL section generating 6M+ impressions. Content marketing results at TigerData.",
+        "url": "{{ url()->current() }}"
+    }
+    </script>
+@endsection
 
 @section('content')
     <div class="mb-10">
