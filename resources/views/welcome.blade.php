@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Ana Tavares - Developer marketing strategist')
-@section('meta_description', 'I build developer marketing strategies that drive real outcomes. Currently at Laravel, driving SEO, content, and GTM across the platform.')
+@section('meta_description', 'Developer marketing strategist who doubled Laravel Cloud\'s organic traffic in 6 months. SEO, content strategy, and GTM for developer tools.')
 
 @section('jsonld')
     <script type="application/ld+json">
@@ -19,7 +19,7 @@
             "https://www.linkedin.com/in/ana-margarida-tavares-b1228411/"
         ],
         "image": "https://anamargaridatavares.com/images/ana-profile.jpg",
-        "description": "Developer marketing strategist building strategies that drive real outcomes. Currently at Laravel, driving SEO, content, and GTM across the platform."
+        "description": "Developer marketing strategist who doubled Laravel Cloud's organic traffic in 6 months. SEO, content strategy, and GTM for developer tools."
     }
     </script>
 @endsection

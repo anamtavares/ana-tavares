@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Ana Tavares - Developer marketing strategist')</title>
-    <meta name="description" content="@yield('meta_description', 'I build developer marketing strategies that drive real outcomes. Currently at Laravel, driving SEO, content, and GTM across the platform.')">
+    <meta name="description" content="@yield('meta_description', 'Developer marketing strategist who doubled Laravel Cloud\'s organic traffic in 6 months. SEO, content strategy, and GTM for developer tools.')">
     <link rel="canonical" href="{{ url()->current() }}">
 
     {{-- Open Graph --}}
     <meta property="og:title" content="@yield('title', 'Ana Tavares - Developer marketing strategist')">
-    <meta property="og:description" content="@yield('meta_description', 'I build developer marketing strategies that drive real outcomes. Currently at Laravel, driving SEO, content, and GTM across the platform.')">
+    <meta property="og:description" content="@yield('meta_description', 'Developer marketing strategist who doubled Laravel Cloud\'s organic traffic in 6 months. SEO, content strategy, and GTM for developer tools.')">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:image" content="@yield('og_image', asset('images/ana-profile.jpg'))">
     <meta property="og:type" content="website">
