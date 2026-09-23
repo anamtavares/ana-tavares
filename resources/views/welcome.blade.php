@@ -68,26 +68,26 @@
         </section>
 
         {{-- Selected results --}}
-        <section class="border-b border-hair py-10 md:py-20">
+        <a href="/portfolio" class="group block border-b border-hair py-10 md:py-20">
             <div class="wrap swiss-grid gap-y-6">
-                <p class="label col-span-12 md:col-span-3">Selected results</p>
+                <p class="label col-span-12 md:col-span-3 group-hover:text-swiss transition-colors duration-150">Selected results <span aria-hidden="true">&rarr;</span></p>
 
                 <div class="col-span-12 md:col-span-9 grid grid-cols-1 md:grid-cols-3 gap-7 md:gap-10">
                     <div class="border-t-2 border-ink pt-3.5">
-                        <p class="text-[44px] md:text-[clamp(44px,5.2vw,76px)] font-bold leading-none tracking-[-0.04em]">2&times;</p>
+                        <p class="text-[44px] md:text-[clamp(44px,5.2vw,76px)] font-bold leading-none tracking-[-0.04em] group-hover:text-swiss transition-colors duration-150">2&times;</p>
                         <p class="mt-3 text-[15px] text-muted max-w-[26ch]">Organic clicks to Laravel Cloud in 6 months, 49K to 104K</p>
                     </div>
                     <div class="border-t-2 border-ink pt-3.5">
-                        <p class="text-[44px] md:text-[clamp(44px,5.2vw,76px)] font-bold leading-none tracking-[-0.04em]">10&times;</p>
+                        <p class="text-[44px] md:text-[clamp(44px,5.2vw,76px)] font-bold leading-none tracking-[-0.04em] group-hover:text-swiss transition-colors duration-150">10&times;</p>
                         <p class="mt-3 text-[15px] text-muted max-w-[26ch]">Blog-attributed signups, 70 to 743 per month</p>
                     </div>
                     <div class="border-t-2 border-ink pt-3.5">
-                        <p class="text-[44px] md:text-[clamp(44px,5.2vw,76px)] font-bold leading-none tracking-[-0.04em]">36&rarr;17</p>
+                        <p class="text-[44px] md:text-[clamp(44px,5.2vw,76px)] font-bold leading-none tracking-[-0.04em] group-hover:text-swiss transition-colors duration-150">36&rarr;17</p>
                         <p class="mt-3 text-[15px] text-muted max-w-[26ch]">Average search position, with impressions up from 3M to 5.1M</p>
                     </div>
                 </div>
             </div>
-        </section>
+        </a>
 
         {{-- Motto --}}
         <section class="py-12 md:py-28">
