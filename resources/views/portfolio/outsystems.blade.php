@@ -1,8 +1,9 @@
-@extends('portfolio.layout', ['logo' => 'outsystems-logo.svg'])
+@extends('portfolio.layout')
 
 @section('title', 'OutSystems - Ana Tavares')
 @section('meta_description', 'Developer content and engineering blog work at OutSystems.')
 @section('company', 'OutSystems')
+@section('headline', 'Developer content and the engineering blog.')
 
 @section('jsonld')
     <script type="application/ld+json">
@@ -17,26 +18,12 @@
 @endsection
 
 @section('content')
-    <ul class="space-y-4">
-        <li>
-            <a href="https://medium.com/outsystems-engineering" target="_blank" rel="noopener noreferrer" class="text-base text-zinc-300 hover:text-[#f59e0b] transition-colors duration-150">
-                OutSystems Engineering Medium
-            </a>
-        </li>
-        <li>
-            <a href="https://www.outsystems.com/blog/posts/detecting-duplicate-code-in-vpl/" target="_blank" rel="noopener noreferrer" class="text-base text-zinc-300 hover:text-[#f59e0b] transition-colors duration-150">
-                Detecting Duplicate Code in VPL
-            </a>
-        </li>
-        <li>
-            <a href="https://www.outsystems.com/blog/posts/mental-health/" target="_blank" rel="noopener noreferrer" class="text-base text-zinc-300 hover:text-[#f59e0b] transition-colors duration-150">
-                Mental Health
-            </a>
-        </li>
-        <li>
-            <a href="https://www.outsystems.com/blog/posts/a-talk-about-design-systems/" target="_blank" rel="noopener noreferrer" class="text-base text-zinc-300 hover:text-[#f59e0b] transition-colors duration-150">
-                A Talk About Design Systems
-            </a>
-        </li>
-    </ul>
+    @include('portfolio.partials.links', ['groups' => [
+        'Selected work' => [
+            'OutSystems Engineering Medium' => 'https://medium.com/outsystems-engineering',
+            'Detecting Duplicate Code in VPL' => 'https://www.outsystems.com/blog/posts/detecting-duplicate-code-in-vpl/',
+            'Mental Health' => 'https://www.outsystems.com/blog/posts/mental-health/',
+            'A Talk About Design Systems' => 'https://www.outsystems.com/blog/posts/a-talk-about-design-systems/',
+        ],
+    ]])
 @endsection
