@@ -62,7 +62,7 @@
                         alt="Ana Tavares and Pur&eacute;"
                         class="w-full aspect-[3/4] object-cover"
                     >
-                    <figcaption class="label text-muted mt-3">Ana and Pur&eacute;, Lisbon</figcaption>
+                    <figcaption class="label text-muted mt-3 text-center">Ana and Pur&eacute;, Lisbon</figcaption>
                 </figure>
             </div>
         </section>
